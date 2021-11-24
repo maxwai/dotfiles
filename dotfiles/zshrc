@@ -79,5 +79,8 @@ source $ZSH/oh-my-zsh.sh
 
 DISABLE_UPDATE_PROMPT=true
 
+path+=('/home/maxwai/.cargo/bin')
+export PATH
+
 # dotdrop alias
 alias dotdrop='/home/maxwai/dotfiles/dotdrop.sh --cfg=/home/maxwai/dotfiles/config.yaml'
