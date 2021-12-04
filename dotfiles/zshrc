@@ -84,3 +84,8 @@ export PATH
 
 # dotdrop alias
 alias dotdrop='/home/maxwai/dotfiles/dotdrop.sh --cfg=/home/maxwai/dotfiles/config.yaml'
+
+# git alias
+alias git_lrz='git config user.email m.waidelich@hm.edu; git config user.signingkey EB95B6B107D905C3'
+alias git_teiimo='git config user.email max.waidelich@teiimo.com; git config user.signingkey 956E750029EDAC1F'
+alias git_private='git config user.email maximilian.waidelich@gmail.com; git config user.signingkey 3F697FD9B5B4C657'
