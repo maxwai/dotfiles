@@ -13,26 +13,30 @@ dotfiles:
   f_p10k.zsh:
     src: p10k.zsh
     dst: ~/.p10k.zsh
+  f_taskrc:
+    src: taskrc
+    dst: ~/.taskrc
 variables:
-  gpg_lrz: ""
-  gpg_teiimo: ""
-  gpg_private: ""
+  gpg_lrz: ''
+  gpg_teiimo: ''
+  gpg_private: ''
 profiles:
   maxi-fedora:
     dotfiles:
     - f_bashrc
     - f_zshrc
     - f_p10k.zsh
+    - f_taskrc
     variables:
-      gpg_lrz: "EB95B6B107D905C3"
-      gpg_teiimo: "956E750029EDAC1F"
-      gpg_private: "3F697FD9B5B4C657"
+      gpg_lrz: EB95B6B107D905C3
+      gpg_teiimo: 956E750029EDAC1F
+      gpg_private: 3F697FD9B5B4C657
   maxi-dell:
     dotfiles:
     - f_bashrc
     - f_zshrc
     - f_p10k.zsh
     variables:
-      gpg_lrz: "8F63AE616A51AA01"
-      gpg_teiimo: "1195BBE6FA14982F"
-      gpg_private: "E881A39CC669ADC7"
+      gpg_lrz: 8F63AE616A51AA01
+      gpg_teiimo: 1195BBE6FA14982F
+      gpg_private: E881A39CC669ADC7

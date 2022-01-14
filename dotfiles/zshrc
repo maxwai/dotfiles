@@ -89,3 +89,5 @@ alias dotdrop='/home/maxwai/dotfiles/dotdrop.sh --cfg=/home/maxwai/dotfiles/conf
 alias git_lrz='git config user.email m.waidelich@hm.edu; git config user.signingkey {{@@ gpg_lrz @@}}'
 alias git_teiimo='git config user.email max.waidelich@teiimo.com; git config user.signingkey {{@@ gpg_teiimo @@}}'
 alias git_private='git config user.email maximilian.waidelich@gmail.com; git config user.signingkey {{@@ gpg_private @@}}'
+
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/usr/local/lib"
