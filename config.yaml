@@ -36,6 +36,7 @@ profiles:
     - f_bashrc
     - f_zshrc
     - f_p10k.zsh
+    - f_taskrc
     variables:
       gpg_lrz: 8F63AE616A51AA01
       gpg_teiimo: 1195BBE6FA14982F
