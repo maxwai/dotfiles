@@ -41,3 +41,5 @@ report.list.columns=id,start.age,depends.indicator,priority,project,tags,recur.i
 report.list.labels=ID,Active,D,P,Project,Tags,R,Sch,Due,Until,Description,Urg
 report.next.columns=id,start.age,depends,priority,project,tags,recur,scheduled,due,until,description,urgency
 report.next.labels=ID,Active,Deps,P,Project,Tag,Recur,Sched,Due,Until,Description,Urg
+report.next.coloumns=id,start.age,depends,priority,project,tags,recur.indicator,scheduled,due,until.remaining,description.count,urgency
+report.list.coloumn=id,start.age,depends,priority,project,tags,recur.indicator,scheduled,due,until.remaining,description.count,urgency
