@@ -36,7 +36,7 @@
     os_icon                 # os identifier
     dir                     # current directory
     vcs                     # git status
-    svn                     # svn status
+    #svn                     # svn status
     # =========================[ Line #2 ]=========================
     newline                 # \n
     prompt_char             # prompt symbol
@@ -495,19 +495,19 @@
   # using them. If you do, your prompt may become slow even when your current directory
   # isn't in an svn or hg reposotiry.
   typeset -g POWERLEVEL9K_VCS_BACKENDS=(git)
-  
-  function prompt_svn() {
-    local rev branch
-    if in_svn; then
-        rev=$(svn_get_rev_nr)
-        branch=$(echo "$(svn_get_branch_name)" | sed 's/^.*\///')
-        if [[ $(svn_dirty) -eq 1 ]]; then
-            p10k segment -b yellow -f black -t "on   $branch@$rev"
-        else
-            p10k segment -b green -f black -t "on   $branch@$rev"
-        fi
-    fi
-  }
+
+  #function prompt_svn() {
+  #  local rev branch
+  #  if in_svn; then
+  #      rev=$(svn_get_rev_nr)
+  #      branch=$(echo "$(svn_get_branch_name)" | sed 's/^.*\///')
+  #      if [[ $(svn_dirty) -eq 1 ]]; then
+  #          p10k segment -b yellow -f black -t "on   $branch@$rev"
+  #      else
+  #          p10k segment -b green -f black -t "on   $branch@$rev"
+  #      fi
+  #  fi
+  #}
 
   ##########################[ status: exit code of the last command ]###########################
   # Enable OK_PIPE, ERROR_PIPE and ERROR_SIGNAL status states to allow us to enable, disable and
