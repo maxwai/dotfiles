@@ -55,6 +55,7 @@ bindkey '^[[F' end-of-line # ENDE
 bindkey '^[[H' beginning-of-line # POS1
 bindkey '^[[1;5C' forward-word # STRG + RIGHT ARROW
 bindkey '^[[1;5D' backward-word # STRG + LEFT ARROW
+bindkey '^H' backward-kill-word # STRG + BACKSPACE
 
 # PROMPT
 #NAME="%B%{$fg[green]%}%n%b"
