@@ -73,6 +73,7 @@ plugins=(git
 	 sudo
 	 svn)
 
+export ZSH_DISABLE_COMPFIX=true
 source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
