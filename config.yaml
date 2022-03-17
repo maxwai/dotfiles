@@ -16,6 +16,9 @@ dotfiles:
   f_taskrc:
     src: taskrc
     dst: ~/.taskrc
+  f_btop.conf:
+    src: config/btop/btop.conf
+    dst: ~/.config/btop/btop.conf
 variables:
   gpg_lrz: ''
   gpg_teiimo: ''
@@ -27,6 +30,7 @@ profiles:
     - f_zshrc
     - f_p10k.zsh
     - f_taskrc
+    - f_btop.conf
     variables:
       gpg_lrz: EB95B6B107D905C3
       gpg_teiimo: 956E750029EDAC1F
