@@ -71,7 +71,9 @@ plugins=(git
 	 copyfile
 	 dnf
 	 sudo
-	 svn)
+	 docker
+	 docker-compose
+	 stack)
 
 export ZSH_DISABLE_COMPFIX=true
 source $ZSH/oh-my-zsh.sh
