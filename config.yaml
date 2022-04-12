@@ -19,10 +19,6 @@ dotfiles:
   f_btop.conf:
     src: config/btop/btop.conf
     dst: ~/.config/btop/btop.conf
-variables:
-  gpg_lrz: ''
-  gpg_teiimo: ''
-  gpg_private: ''
 profiles:
   maxi-fedora:
     dotfiles:
@@ -31,21 +27,6 @@ profiles:
     - f_p10k.zsh
     - f_taskrc
     - f_btop.conf
-    variables:
-      gpg_lrz: EB95B6B107D905C3
-      gpg_teiimo: 956E750029EDAC1F
-      gpg_private: 3F697FD9B5B4C657
-  maxi-dell:
-    dotfiles:
-    - f_bashrc
-    - f_zshrc
-    - f_p10k.zsh
-    - f_taskrc
-    - f_btop.conf
-    variables:
-      gpg_lrz: 8F63AE616A51AA01
-      gpg_teiimo: 1195BBE6FA14982F
-      gpg_private: E881A39CC669ADC7
   maxi-framework:
     dotfiles:
     - f_bashrc
@@ -53,7 +34,3 @@ profiles:
     - f_p10k.zsh
     - f_taskrc
     - f_btop.conf
-    variables:
-      gpg_lrz: 8F63AE616A51AA01
-      gpg_teiimo: 1195BBE6FA14982F
-      gpg_private: E881A39CC669ADC7
