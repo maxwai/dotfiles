@@ -95,3 +95,7 @@ alias git_teiimo='git config user.email max.waidelich@teiimo.com; git config use
 alias git_private='git config user.email maximilian.waidelich@gmail.com; git config user.signingkey 3F697FD9B5B4C657'
 
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/usr/local/lib"
+
+# matlab alias
+alias activate_matlab='/usr/local/MATLAB/R2021b/bin/activate_matlab.sh'
+
