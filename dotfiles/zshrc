@@ -101,3 +101,9 @@ alias activate_matlab='/usr/local/MATLAB/R2021b/bin/activate_matlab.sh'
 
 # gedit replacement
 alias gedit="gnome-text-editor"
+
+
+#tmp alias
+alias dnf_fix_smb='sudo dnf downgrade libsmbclient'
+
+[ -f "/home/maxwai/.ghcup/env" ] && source "/home/maxwai/.ghcup/env" # ghcup-env
