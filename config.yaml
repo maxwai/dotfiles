@@ -34,3 +34,10 @@ profiles:
     - f_p10k.zsh
     - f_taskrc
     - f_btop.conf
+  maxi-server:
+    dotfiles:
+    - f_bashrc
+    - f_zshrc
+    - f_p10k.zsh
+    - f_btop.conf
+
