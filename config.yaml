@@ -19,6 +19,10 @@ dotfiles:
   f_btop.conf:
     src: config/btop/btop.conf
     dst: ~/.config/btop/btop.conf
+  f_gitconfig:
+    src: gitconfig
+    dst: ~/.gitconfig
+    chmod: '664'
 profiles:
   maxi-fedora:
     dotfiles:
@@ -27,6 +31,7 @@ profiles:
     - f_p10k.zsh
     - f_taskrc
     - f_btop.conf
+    - f_gitconfig
   maxi-framework:
     dotfiles:
     - f_bashrc
@@ -34,6 +39,7 @@ profiles:
     - f_p10k.zsh
     - f_taskrc
     - f_btop.conf
+    - f_gitconfig
   framework-mainboard:
     dotfiles:
     - f_bashrc
