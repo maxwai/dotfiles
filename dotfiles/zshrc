@@ -84,6 +84,7 @@ source $ZSH/oh-my-zsh.sh
 DISABLE_UPDATE_PROMPT=true
 
 #path+=('/home/maxwai/.cargo/bin')
+path+=('/home/maxwai/bin')
 export PATH
 
 # dotdrop alias
