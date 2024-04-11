@@ -44,5 +44,3 @@ report.next.labels=ID,Active,Deps,P,Project,Tag,Recur,Sched,Due,Until,Descriptio
 report.next.coloumns=id,start.age,depends,priority,project,tags,recur.indicator,scheduled,due,until.remaining,description.count,urgency
 report.list.coloumn=id,start.age,depends,priority,project,tags,recur.indicator,scheduled,due,until.remaining,description.count,urgency
 news.version=2.6.0
-context.work.read=+Teiimo
-context.work.write=+Teiimo

@@ -48,6 +48,7 @@ alias rm='rm -I' # Ask before removal
 alias cp='cp -i' # Ask before copy
 alias mv='mv -i' # Ask before move
 alias android='scrcpy' # map scrpy (Android Mirror via USB) to android
+alias qrcode-reader='import -silent -window root bmp:- | zbarimg -'
 
 # Key Bings
 bindkey '^[[3~' delete-char # ENTF
@@ -85,6 +86,7 @@ DISABLE_UPDATE_PROMPT=true
 
 #path+=('/home/maxwai/.cargo/bin')
 path+=('/home/maxwai/bin')
+path+=('/home/maxwai/dev/flutter/bin')
 export PATH
 
 # dotdrop alias
