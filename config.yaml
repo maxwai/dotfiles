@@ -13,9 +13,6 @@ dotfiles:
   f_p10k.zsh:
     src: p10k.zsh
     dst: ~/.p10k.zsh
-  f_taskrc:
-    src: taskrc
-    dst: ~/.taskrc
   f_btop.conf:
     src: config/btop/btop.conf
     dst: ~/.config/btop/btop.conf
@@ -29,7 +26,6 @@ profiles:
     - f_bashrc
     - f_zshrc
     - f_p10k.zsh
-    - f_taskrc
     - f_btop.conf
     - f_gitconfig
   maxi-framework:
@@ -37,7 +33,6 @@ profiles:
     - f_bashrc
     - f_zshrc
     - f_p10k.zsh
-    - f_taskrc
     - f_btop.conf
     - f_gitconfig
   framework-mainboard:
